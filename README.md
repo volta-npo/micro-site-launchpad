@@ -12,7 +12,7 @@
 
 **Digital Presence** · **No backend. No login. Client data stays local.**
 
-[Live app](https://volta-npo.github.io/04-micro-site-launchpad/) · [Report an issue](https://github.com/volta-npo/04-micro-site-launchpad/issues) · [Volta](https://voltanpo.org)
+[Live app](https://volta-npo.github.io/micro-site-launchpad/) · [Report an issue](https://github.com/volta-npo/micro-site-launchpad/issues) · [Volta](https://voltanpo.org)
 
 </div>
 
@@ -182,7 +182,7 @@ This repo is designed to be usable as a real OSS product, not just a static demo
 ## 🛠️ Quick start
 
 ```bash
-git clone https://github.com/volta-npo/04-micro-site-launchpad.git
+git clone https://github.com/volta-npo/micro-site-launchpad.git
 cd 04-micro-site-launchpad
 npm install
 npm test

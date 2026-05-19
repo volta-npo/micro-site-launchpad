@@ -29,11 +29,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/volta-npo/04-micro-site-launchpad.git"
+    "url": "git+https://github.com/volta-npo/micro-site-launchpad.git"
   },
-  "homepage": "https://volta-npo.github.io/04-micro-site-launchpad/",
+  "homepage": "https://volta-npo.github.io/micro-site-launchpad/",
   "bugs": {
-    "url": "https://github.com/volta-npo/04-micro-site-launchpad/issues"
+    "url": "https://github.com/volta-npo/micro-site-launchpad/issues"
   },
   "author": "Volta Open Source <volta.npo@gmail.com>",
   "engines": {
