@@ -1,7 +1,7 @@
 export const domain = {
   "kind": "site-builder",
   "title": "Micro-Site Launchpad",
-  "purpose": "A purpose-built site builder interface for opinionated one-week website scaffolds for restaurants, salons, tutors, local services, and nonprofits.",
+  "purpose": "A purpose-built site builder interface for opinionated one-week website tools for restaurants, salons, tutors, local services, and nonprofits.",
   "inputTitle": "Product-specific inputs",
   "previewTitle": "Generated working outputs",
   "tableTitle": "Site content pack",
