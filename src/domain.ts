@@ -76,17 +76,37 @@ export const domain = {
     "Contact/CTA present",
     "Schema snippet generated",
     "Asset inventory complete",
-    "Handoff checklist complete"
+    "Handoff checklist complete",
+    "Homepage wireframe generated",
+    "SEO metadata drafted",
+    "Publish checklist completed",
+    "Owner edit guide created"
   ],
   "artifacts": [
     "Static content pack",
     "Sitemap",
-    "Owner handoff checklist"
+    "Owner handoff checklist",
+    "One-page site brief",
+    "SEO metadata sheet",
+    "Owner edit guide"
   ],
   "checks": [
     "CTA/contact required",
     "Alt text required for assets",
-    "Meta descriptions under limits"
+    "Meta descriptions under limits",
+    "Every page needs a primary CTA",
+    "Owner edit guide required for handoff",
+    "Publish checklist needs rollback contact"
   ],
-  "sampleClient": "Riverside Community Bakery"
+  "sampleClient": "Riverside Community Bakery",
+  "saas": {
+    "personas": ["Student site builder", "Local service owner", "Mentor QA reviewer"],
+    "stages": [
+      { "name": "Site intake", "goal": "Turn owner interview notes into a page map, offers, and audience promise.", "rowPatterns": ["Industry|Page map|Hero|Services"] },
+      { "name": "Launch assembly", "goal": "Generate publishable content, metadata, schema, and asset inventory.", "rowPatterns": ["Schema|Asset|metadata|wireframe"] },
+      { "name": "Owner handoff", "goal": "Give the owner a launch checklist and editable maintenance guide.", "rowPatterns": ["Handoff|Publish|Owner edit|checklist"] }
+    ],
+    "sampleValues": { "primary-goal": "ship a polished first micro-site draft in one week" },
+    "sampleRows": { "Homepage wireframe generated": "Hero, proof, services, hours, and contact sections drafted", "Owner edit guide created": "Guide explains how to update hours, offers, and photos" }
+  }
 };
