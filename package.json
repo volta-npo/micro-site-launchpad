@@ -1,0 +1,35 @@
+{
+  "name": "@volta-oss/micro-site-launchpad",
+  "version": "3.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Opinionated one-week website scaffolds for restaurants, salons, tutors, local services, and nonprofits.",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 4173",
+    "validate": "node --test",
+    "certify": "node --test test/v3.test.js",
+    "test:all": "node --test"
+  },
+  "keywords": [
+    "digital presence",
+    "digital-equity",
+    "local-first",
+    "oss",
+    "v3-production",
+    "volta"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volta-npo/04-micro-site-launchpad.git"
+  },
+  "homepage": "https://volta-npo.github.io/04-micro-site-launchpad/",
+  "bugs": {
+    "url": "https://github.com/volta-npo/04-micro-site-launchpad/issues"
+  },
+  "author": "Volta OSS Division <volta.npo@gmail.com>",
+  "engines": {
+    "node": ">=20"
+  }
+}
