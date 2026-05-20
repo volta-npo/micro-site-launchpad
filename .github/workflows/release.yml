@@ -24,7 +24,7 @@ jobs:
       - name: Package release artifact
         run: tar --exclude=.git --exclude=node_modules -czf micro-site-launchpad-release.tar.gz .
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: micro-site-launchpad-release
           path: micro-site-launchpad-release.tar.gz
