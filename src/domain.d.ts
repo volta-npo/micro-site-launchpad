@@ -22,6 +22,24 @@ export declare const domain: {
     rows: string[];
     artifacts: string[];
     checks: string[];
+    modules: {
+        name: string;
+        description: string;
+        metrics: string[];
+        deliverable: string;
+    }[];
+    plays: {
+        name: string;
+        trigger: string;
+        outcome: string;
+    }[];
+    economics: {
+        buyer: string;
+        valueMetric: string;
+        priceHint: string;
+        northStar: string;
+    };
+    exportSuite: string[];
     sampleClient: string;
     saas: {
         personas: string[];
@@ -34,8 +52,18 @@ export declare const domain: {
             "primary-goal": string;
         };
         sampleRows: {
-            "Homepage wireframe generated": string;
-            "Owner edit guide created": string;
+            "Business goal captured": string;
+            "Page sections selected": string;
+            "Owner-approved copy drafted": string;
+            "Images/assets inventoried": string;
+            "Contact CTA verified": string;
+            "Domain/hosting plan selected": string;
+            "Accessibility/mobile QA passed": string;
+            "Owner handoff guide generated": string;
+            "SEO title and meta drafted": string;
+            "Privacy/contact policy noted": string;
+            "Launch analytics plan selected": string;
+            "Post-launch update cadence set": string;
         };
     };
 };
